@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SDK\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\AndroidProject\SimpleChatUITest\viewpager\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-752a1b114630c3b0967a4fb8dbe7527e569e523c.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProject\SimpleChatUITest\viewpager\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\AndroidProject\SimpleChatUITest\viewpager\build\intermediates\pre-dexed\debug\classes-56679a721df3033f6f8c5b88a51bf476527a783d.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProject\SimpleChatUITest\viewpager\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\AndroidProject\SimpleChatUITest\viewpager\build\intermediates\pre-dexed\debug\classes-9b26abe0db74ec28a4fdd1f3aeceeed6506234d5.jar" />
+    </item>
+    <item
+        jar="C:\AndroidProject\SimpleChatUITest\viewpager\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\AndroidProject\SimpleChatUITest\viewpager\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-641d29a50c241026090a5a30f9130a83796ecbd6.jar" />
+    </item>
+
+</items>

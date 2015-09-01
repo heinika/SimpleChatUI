@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#88000000</color>
+    <color name="lightblue">#a188dadd</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#02d8ff</color>
+    <color name="yellow">#47fff000</color>
+    <color name="qqblue">#509EE1</color>
+    <color name="qqblue_pressed">#2378D0</color>
+    <color name="green">#41ff5d</color>
+</resources>

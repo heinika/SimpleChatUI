@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/qqblue_pressed"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="模拟聊天"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/imagebutton_calender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/a_calendar_click"
+            android:background="#00ffffff"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearlayout_main"
+        android:layout_below="@id/relativelayout_header"
+        android:background="@drawable/listview_background"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:fastScrollEnabled="true"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:scrollbarStyle="insideInset"
+        android:transcriptMode="alwaysScroll"
+        android:listSelector="@android:color/transparent"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearlayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/lightblue"
+            android:gravity="bottom"
+            android:padding="2dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/button_background"
+                android:text="接收" />
+            </RelativeLayout>
+            <ImageButton
+                android:id="@+id/imagebutton_face"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="#00ffffff"
+                android:src="@mipmap/chat_emo" />
+
+            <EditText
+                android:id="@+id/edittext_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@mipmap/chat_input"
+                android:hint="请输入聊天信息" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            <Button
+                android:id="@+id/button_send"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_weight="0"
+                android:background="@drawable/button_background"
+                android:layout_alignParentBottom="true"
+                android:text="发送" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridview_face"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearlayout_main"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:numColumns="6"
+            android:visibility="gone">
+
+        </GridView>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/C:/AndroidProject/SimpleChatUITest/app/src/main/res/layout/activity_main.xml -->

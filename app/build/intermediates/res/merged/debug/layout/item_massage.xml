@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_item_massage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/textview_chat_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:text="09-25 12:00"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_chat_time"
+        >
+        <LinearLayout
+            android:id="@+id/linearlayout_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentLeft="true"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/iv_chat_from"
+                />
+            <TextView
+                android:id="@+id/textview_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/chat_input"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            >
+            <TextView
+                android:id="@+id/textview_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/send"
+                />
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/iv_chat_to"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout><!-- From: file:/C:/AndroidProject/SimpleChatUITest/app/src/main/res/layout/item_massage.xml -->
